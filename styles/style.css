@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: #646FD4;
+    text-align: center;
+    padding: 1rem;
+    font-size: 4rem;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #242F9B;
+    padding: 3rem;
+    font-size: 4rem;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #242F9B;
+    padding: 3rem;
+    font-size: 4rem;
+}
+
+.section-main img{
+    margin: 2rem;
+}
+
+.section-main {
+    background-color: #646FD4;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+    /* ------PAGINA PRODUCTOS------- */
+
+.section-products{
+    display: flex;
+    justify-content: space-around;
+    background-color: #646FD4;
+    padding: 3rem;
+}
+
+.section-products img{
+    border-style: solid;
+    border-color: black;
+}
+
+.section-buttons{
+    display: flex;
+    justify-content: space-around;
+    background-color: #646FD4;
+    padding: 3rem;
+}
+
+.button-alcarrito{
+    border: none;
+    padding: 15px 32px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button-alcarrito:hover {
+background-color: #4CAF50; /* Green */
+color: white;
+}
+
+.section-form-contact{
+    display: flex;
+    background-color: #646FD4;
+    padding: 20px;
+    border-width: 5px;
+    font-size: 3rem;
+}
+
+.section-form-contact input{
+    width: 1200px;
+    height: 30px;
+}
+
+.section-form-contact .phone1{
+    width: 200px;
+}
+
+.section-form-contact .phone2{
+    width: 980px;
+}
+
+.section-form-contact .message{
+    width: 1200px;
+    height: 100px;
+}
+
+.section-table{
+    background-color: #646FD4;
+    padding: 100px;
+}
+
+.cart-table{
+    width: 1200px;
+    margin: auto;
+    border-color:white;
+    background-color: rgb(207, 205, 205);
+    text-align: center;
+}
+
+.cart-table .unit{
+    width: 50px;
+}
+
+.cart-table .cart-total{
+    background-color:#4CAF50 ;
+}
+
+.section-table button{
+    margin-left: 1350px;
+    border: none;
+    padding: 15px 32px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.section-table button:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
